@@ -1,0 +1,9 @@
+llama-index==0.9.40
+langchain
+transformers
+langchain_huggingface
+langchain_chroma
+langchain_ollama
+langchain-neo4j
+langchain_experimental
+json-repair
