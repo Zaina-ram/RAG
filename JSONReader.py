@@ -10,7 +10,10 @@ def load_data(input_file: str) -> List[Document]:
         with open(input_file, 'r') as file:
             load_data = json.load(file)
         for data in load_data:
-            metadata = {"title": data['title'], "published_at": data['published_at'],"source":data['source']}
+            metadata = {"title": data['title'],"url": data['url'], "published_at": data['published_at'],"source":data['source']}
             documents.append(Document(text=data['body'], metadata=metadata))
+        
+        #print(len(documents))
         return documents
     
+#load_data("data/corpus.json")

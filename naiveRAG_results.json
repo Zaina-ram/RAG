@@ -1,0 +1,80 @@
+[
+    {
+        "query": "Who is the individual associated with the cryptocurrency industry facing a criminal trial on fraud and conspiracy charges, as reported by both The Verge and TechCrunch, and is accused by prosecutors of committing fraud for personal gain?",
+        "answer": "Iota (Insufficient Information)\n\nThe provided context does not mention any specific individual associated with the cryptocurrency industry facing a criminal trial on fraud and conspiracy charges. Both The Verge and TechCrunch articles referenced do not provide enough information to identify the individual in question.",
+        "question_type": "inference_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Which individual is implicated in both inflating the value of a Manhattan apartment to a figure not yet achieved in New York City's real estate history, according to 'Fortune', and is also accused of adjusting this apartment's valuation to compensate for a loss in another asset's worth, as reported by 'The Age'?",
+        "answer": "Steven Cohen (or a similar entity associated with him) based on the context provided.",
+        "question_type": "inference_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Who is the figure associated with generative AI technology whose departure from OpenAI was considered shocking according to Fortune, and is also the subject of a prevailing theory suggesting a lack of full truthfulness with the board as reported by TechCrunch?",
+        "answer": "Sam Altman",
+        "question_type": "inference_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Do the TechCrunch article on software companies and the Hacker News article on The Epoch Times both report an increase in revenue related to payment and subscription models, respectively?",
+        "answer": "Insufficient Information",
+        "question_type": "comparison_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Which online betting platform provides a welcome bonus of up to $1000 in bonus bets for new customers' first losses, runs NBA betting promotions, and is anticipated to extend the same sign-up offer to new users in Vermont, as reported by both CBSSports.com and Sporting News?",
+        "answer": "BetMGM (or any platform that offers similar conditions)",
+        "question_type": "inference_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Who is the individual alleged to have built a thriving crypto exchange on falsehoods and is accused by the prosecution of committing fraud for personal gain, as reported by both Fortune and TechCrunch?",
+        "answer": "Sam Bankman-Fried (SBF)\n\nContext:\nFortune article titled \"Sam Bankman-Fried's FTX Is the Fastest Growing Crypto Exchange in the World\" - https://fortune.com/2021/09/27/sam-bankman-fried-ftx-crypto-exchange-fastest-growing/\n\nTechCrunch article titled \"FTX's Sam Bankman-Fried on the Future of Crypto, Regulation and His Unusual Path to Success\" - https://techcrunch.com/2021/09/27/ftxs-sam-bankman-fried-on-the-future-of-crypto-regulation-and-his-unusual-path-to-success/\n\nBoth articles were published on September 27, 2021. The context does not mention any fraud allegations against SBF at the time of these articles. However, subsequent events have led to accusations of fraud and misconduct by various sources, including the U.S. Department of Justice.",
+        "question_type": "inference_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Does the TechCrunch article on Twitch's subscription revenue split policy indicate a different monetization strategy compared to the TechCrunch article on Beeper's plans for Beeper Mini subscriptions?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Does 'The New York Times' article attribute the success of the Buffalo Bills' defense to the contributions of Jordan Poyer, while the 'Sporting News' article suggests that the Baltimore Ravens' defense needs to improve before their game against the Cincinnati Bengals?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": []
+    },
+    {
+        "query": "What is the name of the organization discussed in TechCrunch articles that, despite its financial instability, is recognized for creating ChatGPT, which is both a priority and a platform for ongoing innovations, and is planning to enhance its capabilities with the release of GPT-4 and associated APIs?",
+        "answer": "OpenAI",
+        "question_type": "inference_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Which company, as reported by both TechCrunch and The Verge, has spent billions to maintain its default search engine status on various platforms and is also accused of harming news publishers\u2019 revenue through its business practices?",
+        "answer": "Google",
+        "question_type": "inference_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Considering the information from a BBC article detailing Sridevi's achievements in the Indian film industry and a Times of India report on her posthumous honors, which single character from a film portrayed by Sridevi has been recognized for its cultural impact and has also been commemorated with a special award after her passing?",
+        "answer": "Mother (from the movie \"Mom\")",
+        "question_type": "null_query",
+        "evidence_list": []
+    },
+    {
+        "query": "Does 'The Age' article suggest that Australia's Davis Cup team is aiming for an improvement in their performance compared to the previous year, while the 'Sporting News' article indicates that the South Africa national rugby team has already achieved an improvement to reach the Rugby World Cup semi-finals?",
+        "answer": "Yes",
+        "question_type": "comparison_query",
+        "evidence_list": []
+    },
+    {
+        "query": "After the TechCrunch report on October 7, 2023, concerning Dave Clark's comments on Flexport, and the subsequent TechCrunch article on October 30, 2023, regarding Ryan Petersen's actions at Flexport, was there a change in the nature of the events reported?",
+        "answer": "Yes",
+        "question_type": "temporal_query",
+        "evidence_list": []
+    }
+]

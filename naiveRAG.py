@@ -9,7 +9,7 @@ from langchain_ollama import OllamaLLM
 documents = load_data('data/corpus.json')
 CHROMA_PATH = "chroma"
 
-CHUNKS_SIZE = 250
+CHUNKS_SIZE = 1024
 CHUNKS_OVERLAP = 24
 
 save_file = []  # List to store results
@@ -59,10 +59,8 @@ def retrieve_context(query, top_k=3):
     for doc in results:
         retrieval_list.append({
             "title": doc.metadata.get("title", "Unknown Title"),
-            "author": doc.metadata.get("author", "Unknown Author"),
             "url": doc.metadata.get("url", "Unknown URL"),
             "source": doc.metadata.get("source", "Unknown Source"),
-            "category": doc.metadata.get("category", "Unknown Category"),
             "published_at": doc.metadata.get("published_at", "Unknown Date"),
             "fact": doc.page_content
         })
@@ -82,10 +80,11 @@ def generate_response(query):
 
 def generate_and_save_results():
     i = 0
-    with open('data/MultiHopRAG.json') as data_file:
+    with open('eval_test.json') as data_file:
         data = json.load(data_file)
 
     for item in data:
+        print("Processing item:", item)
         query = item['query']
         question_type = item['question_type']
         answer, evidence_list = generate_response(query)
